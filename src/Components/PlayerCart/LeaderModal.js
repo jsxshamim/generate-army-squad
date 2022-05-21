@@ -17,7 +17,7 @@ const LeaderModal = ({ leader, show, handleClose }) => {
             </Modal.Header>
             <Modal.Body>
                 <p>{leader.name}</p>
-                <img className="img-fluid" src={leader.picture} alt="" />
+                <img className="w-100" src={leader.picture} alt="" />
             </Modal.Body>
             <Modal.Footer>
                 <Button variant="danger" onClick={jumpIntoWar}>
