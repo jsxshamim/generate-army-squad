@@ -1,4 +1,4 @@
-import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+import { faPlusSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./Player.css";
@@ -11,8 +11,8 @@ const Player = ({ player, handleSelectPlayer }) => {
             <h3 className="mt-3">{name}</h3>
             <p className="mb-2">Gender: {gender}</p>
             <h5 className="mb-3 fw-bold">Base Price : ${price}</h5>
-            <button onClick={() => handleSelectPlayer(player)}>
-                Select Army <FontAwesomeIcon className="ms-3" icon={faArrowRightLong} />
+            <button className="d-flex align-items-center" onClick={() => handleSelectPlayer(player)}>
+                Select Army <FontAwesomeIcon className="ms-3 fs-5" icon={faPlusSquare} />
             </button>
         </div>
     );

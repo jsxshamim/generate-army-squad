@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import LeaderModal from "./LeaderModal";
 import SelectedPlayers from "./SelectedPlayers";
 import "./PlayerCart.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRotateRight, faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 
 const PlayerCart = ({ players, handleReset }) => {
     const [leader, setLeader] = useState({});
@@ -28,10 +30,12 @@ const PlayerCart = ({ players, handleReset }) => {
                     <SelectedPlayers key={player.id} player={player}></SelectedPlayers>
                 ))}
             </div>
-            <button className="mb-3 me-3" onClick={handleChooseLeader}>
-                Choose Squad Leader
+            <button className="mb-3 me-3 d-flex align-items-center" onClick={handleChooseLeader}>
+                Choose Squad Leader <FontAwesomeIcon className="ms-3 fs-5" icon={faCircleCheck} />
             </button>
-            <button onClick={handleReset}>Choose Another Squad</button>
+            <button className="d-flex align-items-center" onClick={handleReset}>
+                Reset Squad <FontAwesomeIcon className="ms-3 fs-5" icon={faArrowRotateRight} />
+            </button>
             <LeaderModal show={show} handleClose={handleClose} leader={leader}></LeaderModal>
         </div>
     );

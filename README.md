@@ -1,8 +1,11 @@
-# Getting Started with Create React App
+# Project Name: Army Squad
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Project URL:
 
-## Available Scripts
+
+Army Squad Live Project is here: [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 In the project directory, you can run:
 

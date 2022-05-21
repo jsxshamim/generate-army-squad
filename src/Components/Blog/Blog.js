@@ -3,7 +3,7 @@ import "./Blog.css";
 
 const Blog = () => {
     return (
-        <section className="container">
+        <section className="container mb-5">
             <article className="blog">
                 <h3>How React Works?</h3>
                 <p>React কাজ করার জন্য প্রথমত আমাদের দুইটা node Package দরকার। </p>
@@ -11,7 +11,7 @@ const Blog = () => {
                     <li>React </li>
                     <li>React dom</li>
                 </ol>
-                <p fs-5>
+                <p>
                     একটা component যখন লেখা হয় এটা তখন একটা pure javascript code থাকে। যতগুলো component আমরা লিখবো সেগুলো হয় কোন function হবে, না হয় কোন class হবে এবং সেটা pure javascript হবে। component এর মধ্যে আমরা html এর মত যে code গুলা লিখি
                     সেগুলো আসলে fake html যেটাকে আমরা JSX (Javascript JSX) বলি। এই javascript code কে আমাদের HTML code এ কনভার্ট করার প্রয়োজন পড়ে, সেক্ষেত্রে প্রথমে JSX কে vanila Javascript এ Convart করার জন্য webpack নামে একটি library ব্যবহার হয়,
                     যেটা সকল React component কে bundel.js নামে একটি single ফাইলে নিয়ে আসে। এই bundel.js একটি simple vanila javascript যেটা Browser এ রান করতে পারে।
