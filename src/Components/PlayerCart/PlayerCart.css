@@ -1,0 +1,8 @@
+.cart-players {
+    min-height: 200px;
+    background: lightgray;
+    margin-bottom: 18px;
+    box-shadow: 0px 0px 5px 1px #999999;
+    border: 3px solid #666666;
+    padding: 10px;
+}

@@ -1,0 +1,8 @@
+.player-cart {
+    position: relative;
+    left: 40px;
+}
+.cart-container {
+    position: sticky;
+    top: 0;
+}

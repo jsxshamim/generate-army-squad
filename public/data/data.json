@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "fee": 24789,
+        "price": 24789,
         "picture": "https://i.ibb.co/QnS3csG/icon.webp",
         "eyeColor": "blue",
         "name": "Phyllis Blackburn",
@@ -12,7 +12,7 @@
     },
     {
         "id": 2,
-        "fee": 9677,
+        "price": 9677,
         "picture": "https://i.ibb.co/Bnw493r/d7f5e2e4fce28907f149de24c5b86d50.jpg",
         "eyeColor": "brown",
         "name": "Barbara Carr",
@@ -23,7 +23,7 @@
     },
     {
         "id": 3,
-        "fee": 47646,
+        "price": 47646,
         "picture": "https://i.ibb.co/gdxqNjw/81d-V2tv-Xns-L.png",
         "eyeColor": "green",
         "name": "Figueroa Church",
@@ -34,7 +34,7 @@
     },
     {
         "id": 4,
-        "fee": 37687,
+        "price": 37687,
         "picture": "https://i.ibb.co/Pm3rk0j/playerunknown-s-battlegrounds-pubg-mobile-asian-girl-with-shotgun-wallpaper-3000x2000-42.jpg",
         "eyeColor": "green",
         "name": "Kari Whitehead",
@@ -45,7 +45,7 @@
     },
     {
         "id": 5,
-        "fee": 28688,
+        "price": 28688,
         "picture": "https://i.ibb.co/6wS1n8S/9dd9674d11eda6428bdcd7e05bee70ad.jpg",
         "eyeColor": "brown",
         "name": "Perkins Lopez",
@@ -56,7 +56,7 @@
     },
     {
         "id": 6,
-        "fee": 43828,
+        "price": 43828,
         "picture": "https://i.ibb.co/MNR1xJf/63b352e960c4d564875c263505020414.jpg",
         "eyeColor": "blue",
         "name": "Hopper Kemp",
@@ -67,7 +67,7 @@
     },
     {
         "id": 7,
-        "fee": 49056,
+        "price": 49056,
         "picture": "https://i.ibb.co/qpQbvzP/pubg-video-games-wallpaper-thumb.jpg",
         "eyeColor": "blue",
         "name": "Verna Leblanc",
@@ -78,7 +78,7 @@
     },
     {
         "id": 8,
-        "fee": 18159,
+        "price": 18159,
         "picture": "https://i.ibb.co/cgj5qn8/27438aa0abc67d87873c5fc0f465aa00.jpg",
         "eyeColor": "green",
         "name": "Norma Burch",
@@ -89,7 +89,7 @@
     },
     {
         "id": 9,
-        "fee": 30530,
+        "price": 30530,
         "picture": "https://i.ibb.co/WHjXM8Q/449efcb6e602637449f13d23dddd313f.jpg",
         "eyeColor": "brown",
         "name": "Elena Austin",
@@ -100,7 +100,7 @@
     },
     {
         "id": 10,
-        "fee": 11855,
+        "price": 11855,
         "picture": "https://i.ibb.co/hKf2Hhr/61-618777-playerunknown-s-battlegrounds-woman-with-guns-artwork-playerunknowns.jpg",
         "eyeColor": "blue",
         "name": "Sherrie Summers",
@@ -111,7 +111,7 @@
     },
     {
         "id": 11,
-        "fee": 31567,
+        "price": 31567,
         "picture": "https://i.ibb.co/FzZ5LqT/819c-Wf-Q9y-L.png",
         "eyeColor": "green",
         "name": "Clarke Brock",
@@ -122,7 +122,7 @@
     },
     {
         "id": 12,
-        "fee": 38866,
+        "price": 38866,
         "picture": "https://i.ibb.co/bFpqN82/apps-26717-13926798438094759-140677b9-316e-4de3-9372-2ef401471545.png",
         "eyeColor": "brown",
         "name": "Cannon Norris",
@@ -133,7 +133,7 @@
     },
     {
         "id": 13,
-        "fee": 15838,
+        "price": 15838,
         "picture": "https://i.ibb.co/J52frxx/512x512bb.jpg",
         "eyeColor": "green",
         "name": "Moore Evans",
@@ -144,7 +144,7 @@
     },
     {
         "id": 14,
-        "fee": 29176,
+        "price": 29176,
         "picture": "https://i.ibb.co/M1cGnMx/pubg-video-games-wallpaper-thumb-1.jpg",
         "eyeColor": "blue",
         "name": "Marianne Snider",
@@ -155,7 +155,7 @@
     },
     {
         "id": 15,
-        "fee": 47621,
+        "price": 47621,
         "picture": "https://i.ibb.co/9sSfKX8/423973-Kycb.jpg",
         "eyeColor": "blue",
         "name": "Hatfield Mueller",
@@ -166,7 +166,7 @@
     },
     {
         "id": 16,
-        "fee": 35611,
+        "price": 35611,
         "picture": "https://i.ibb.co/0tX12Yk/bqzkr4pfbjg2-background.jpg",
         "eyeColor": "brown",
         "name": "Silva Beard",
@@ -177,7 +177,7 @@
     },
     {
         "id": 17,
-        "fee": 34886,
+        "price": 34886,
         "picture": "https://i.ibb.co/tMZmr58/pubg-video-games-player-unknown-battleground-wallpaper-preview.jpg",
         "eyeColor": "blue",
         "name": "Gwen Hyde",
@@ -188,7 +188,7 @@
     },
     {
         "id": 18,
-        "fee": 10107,
+        "price": 10107,
         "picture": "https://i.ibb.co/D4CwY5y/ext-811.jpg",
         "eyeColor": "blue",
         "name": "Richard Zamora",
@@ -199,7 +199,7 @@
     },
     {
         "id": 19,
-        "fee": 31634,
+        "price": 31634,
         "picture": "https://i.ibb.co/2ZRmZZd/Di-Xu-HV9-VQAIRuu5.jpg",
         "eyeColor": "blue",
         "name": "Ericka Baker",
@@ -210,7 +210,7 @@
     },
     {
         "id": 20,
-        "fee": 30712,
+        "price": 30712,
         "picture": "https://i.ibb.co/z8RLXr2/PUBG-PC-compensation-BP.jpg",
         "eyeColor": "green",
         "name": "Cantu Daniel",
@@ -221,7 +221,7 @@
     },
     {
         "id": 21,
-        "fee": 23677,
+        "price": 23677,
         "picture": "https://i.ibb.co/KqqbcYG/video-game-playerunknown-s-battlegrounds-playerunknown-s-battlegrounds-wallpaper-preview.jpg",
         "eyeColor": "brown",
         "name": "Anderson Middleton",
