@@ -4,14 +4,8 @@
 
 Click Here to see the live Project: [https://army-squad.netlify.app](https://army-squad.netlify.app).
 
-### Icon Framework:
+### Icon Framework: [FontAwesome](https://fontawesome.com/)
 
-FontAwesome
+### CSS Framework: [Bootstrap](https://getbootstrap.com/)
 
-### CSS Framework:
-
-Bootstrap
-
-### Front-end Library:
-
-React JS
+### Front-end Library: [React JS](https://reactjs.org/)
