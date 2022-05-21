@@ -1,5 +1,5 @@
 button {
-    background-color: #e45603; /* Green */
+    background-color: #5d4435; /* Green */
     border: none;
     color: white;
     padding: 10px 32px;
@@ -10,6 +10,9 @@ button {
     transition-duration: 0.3s;
 }
 button:hover {
-    background-color: rgb(216, 10, 27);
+    background-color: #354f35;
     text-decoration: none;
+}
+.App {
+    background-color: whitesmoke;
 }

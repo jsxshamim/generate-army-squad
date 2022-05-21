@@ -6,6 +6,7 @@ import "./PlayerCart.css";
 const PlayerCart = ({ players, handleReset }) => {
     const [leader, setLeader] = useState({});
     const [show, setShow] = useState(false);
+
     const handleChooseLeader = () => {
         if (players.length === 4) {
             handleShow();
