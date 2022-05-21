@@ -22,13 +22,13 @@ const PlayerCart = ({ players, handleReset }) => {
 
     return (
         <div>
-            <h3>Selected Players</h3>
+            <h3 className="my-4">Selected Players</h3>
             <div className="cart-players">
                 {players.map((player) => (
                     <SelectedPlayers key={player.id} player={player}></SelectedPlayers>
                 ))}
             </div>
-            <button className="mb-3" onClick={handleChooseLeader}>
+            <button className="mb-3 me-3" onClick={handleChooseLeader}>
                 Choose Squad Leader
             </button>
             <button onClick={handleReset}>Choose Another Squad</button>

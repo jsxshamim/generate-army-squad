@@ -37,16 +37,16 @@ const Players = () => {
     };
 
     return (
-        <section id="players" className="container players-container">
+        <section id="players" className="container-fluid container-xl players-container">
             <div className="row">
-                <div className="col-lg-9">
-                    <div className="row  gx-5">
+                <div className="col-xxl-9 col-xl-8 col-lg-8 col-md-7 py-5 order-2 order-md-1">
+                    <div className="row  gx-4 gx-lg-5">
                         {players.map((player) => (
                             <Player key={player.id} handleSelectPlayer={handleSelectPlayer} player={player}></Player>
                         ))}
                     </div>
                 </div>
-                <aside className="col-lg-3 bg-light player-cart p-4">
+                <aside className="col-xxl-3 col-xl-4 col-lg-4 col-md-5 player-cart px-4 order-1 order-md-2">
                     <div className="row cart-container">
                         <PlayerCart handleReset={handleReset} players={cartPlayers}></PlayerCart>
                     </div>
