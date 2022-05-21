@@ -1,11 +1,11 @@
 import React from "react";
 import { Button, Modal } from "react-bootstrap";
-import warImage from "../../Images/f1mYEt.gif";
+import warImage from "../../Images/war.gif";
 
 const LeaderModal = ({ leader, show, handleClose }) => {
     const jumpIntoWar = () => {
         // just for fun
-        const body = document.getElementById("players");
+        const body = document.getElementById("App");
         body.innerHTML = `<img class="w-100" src=${warImage} alt="" />`;
         handleClose();
     };

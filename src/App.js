@@ -6,7 +6,7 @@ import Players from "./Components/Players/Players";
 
 function App() {
     return (
-        <div className="App">
+        <div id="App" className="App">
             <Header></Header>
             <Players></Players>
             <Blog></Blog>
