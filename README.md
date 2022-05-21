@@ -1,4 +1,4 @@
-# Project Name: Army Squad
+# Project Name: [Army Squad](https://army-squad.netlify.app)
 
 ## Live Project URL:
 
