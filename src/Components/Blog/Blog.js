@@ -21,6 +21,15 @@ const Blog = () => {
                     সিদ্ধান্ত নেই যে আমাদের marcup এর কোন যায়গায় পরিবর্তন হয়েছে। সম্পুর্ন DOM এর re-render না করে React শুধুমাত্র DOM এর যে যায়গায় পরিবর্তন হয়েছে সেটাকে re-render করে দেই। এই efficient algorithm কে বলা হয় reconciliation algorithm.
                 </p>
             </article>
+
+            <article className="blog">
+                <h3>How useState Works?</h3>
+                <p>
+                    useState হল একটি React Hook যেটা আপনাকে functional Component এ state variable রাখতে সাহায্য করে। useState() সবথেকে বেশি ব্যবহৃত একটি React Hook. এটার মাধ্যমে আমরা Intarnal State Manage করে থাকি। useState() মুলতঃ একটি function যেটা
+                    একটি initial value গ্রহন করে এবং ডাটা অথবা ভেলু যেটা চেঞ্জ হয় সময়ের সাথে। এই function অর্থাৎ useState() আমাদেরকে দুইটা value return করে, যেগুলো একটি Array type এ Return হয়ে আসে এবং সে Array এর মধ্যে ২টা Elements থাকে। প্রথম
+                    value হিসাবে আমরা State এর initial value কে পাই এবং ২য় value হিসাবে একটি function পাই। এই function এর মাধমে আমরা আমাদের State এর ডাটা Update করি।
+                </p>
+            </article>
         </section>
     );
 };
